@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+.l1 {
+    color: aqua;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+nav .menu a:hover {
+    color: aqua;
+}
+
+.content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#element {
+    font-size: 3rem;
+    color: aqua;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content button {
+    width: 100px;
+    height: 30px;
+    background: grey;
+    color: white;
+    padding: 20px, 20px;
+    font-size: 15px;
+    border: 2px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+}
+
+.content button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    color: aqua;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 420px;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 2rem;
+}
+.social ion-icon{
+    color:aqua;
+    align-items: center;
+    font-size:30px;
+    margin: 0 10px;
+}
